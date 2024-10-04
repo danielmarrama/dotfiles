@@ -19,7 +19,7 @@ termdown_func() {
 [[ $- != *i* ]] && return
 
 # Global Python env
-if [ -f ~/env/globa/bin/activate ]; then
+if [ -f ~/env/global/bin/activate ]; then
     source ~/env/global/bin/activate
 fi
 
